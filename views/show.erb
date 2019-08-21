@@ -2,3 +2,8 @@
 <p>Last Name: <%= @students.last_name %></p>
 <p>House: <%= @students.house_id %></p>
 <p>Age: <%= @students.age %></p>
+<hr />
+<form  method="post" action="/students/<%= @students.id %>/delete">
+  <input type="submit" value="Delete Student" />
+
+</form>
