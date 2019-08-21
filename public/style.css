@@ -34,7 +34,7 @@ a:hover {
 }
 .student {
   border: 5px double;
-  margin: 0 35px 30px 0;  
+  margin: 0 35px 30px 0;
   padding: 25px;
   width: 200px;
   display: inline-block;
@@ -47,7 +47,6 @@ a:hover {
 .form-wrapper .form-el input[type="submit" i] {
   margin-left: 180px;
 }
-
 .form-wrapper .form-el label {
   text-align: right;
   display: inline-block;
