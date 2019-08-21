@@ -1,6 +1,6 @@
-<p>First Name: <%= @students.first_name %></p>
-<p>Last Name: <%= @students.last_name %></p>
-<p>House: <%=  @students.house.name%></p>
+<p>First Name: <%= @students.first_name.capitalize %></p>
+<p>Last Name: <%= @students.last_name.capitalize  %></p>
+<p>House: <%=  @students.house.name.capitalize %></p>
 <p>Age: <%= @students.age %></p>
 <hr />
 <p><a href="/students/<%= @students.id %>/edit">Edit Student</a></p>

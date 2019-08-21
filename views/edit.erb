@@ -24,16 +24,16 @@
   <label for="house_select">Select House:</label>
   <select name="house_id" id="house_select">
     <option value="1"
-      <%= "selected" if @house_id == "1" %>
+      <%= "selected" if @students.house_id == 1 %>
       >Gryffindor</option>
     <option value="2"
-      <%= "selected" if @house_id == "2" %>
+      <%= "selected" if @students.house_id == 2 %>
       >Hufflepuff</option>
     <option value="3"
-      <%= "selected" if @house_id == "3" %>
+      <%= "selected" if @students.house_id == 3 %>
       >Ravenclaw</option>
     <option value="4"
-      <%= "selected" if @house_id == "4" %>
+      <%= "selected" if @students.house_id == 4 %>
       >Slytherin</option>
   </select>
 
